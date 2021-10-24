@@ -1,0 +1,9 @@
+version = dateFormatterVersion
+
+dependencies {
+    testImplementation 'junit:junit:4.4'
+}
+
+test {
+    useJUnit()
+}

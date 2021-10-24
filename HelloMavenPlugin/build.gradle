@@ -1,0 +1,7 @@
+version = helloMavenPluginVersion
+
+dependencies {
+    implementation "org.apache.maven:maven-plugin-api:3.0"
+    implementation "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.0"
+    implementation project(":DateFormatter")
+}

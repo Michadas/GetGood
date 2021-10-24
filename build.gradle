@@ -1,0 +1,22 @@
+allprojects {
+    group = 'ru.smsoft'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    compileJava.options.encoding = 'UTF-8'
+    sourceCompatibility = '16'
+
+    ext {
+        lombokVersion = '1.18.20'
+        restAppVersion = '1.0-Gradle'
+        dateFormatterVersion = '1.0-Gradle'
+        helloMavenPluginVersion = '1.0-Gradle'
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
